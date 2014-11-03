@@ -14,7 +14,7 @@ function fib( n ) {
 	return generateF(n)[n];
 }
 
-//the approximated Golden Ratio calculated with precision p
+//the approximated Golden Ratio calculated with precision (number of iterations) p
 function goldenRatio( p ) {
 	var F = generateF(p);
 
