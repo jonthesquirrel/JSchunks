@@ -12,7 +12,7 @@ function generateF( n ){
 	return F;
 }
 
-function goldenRatio(precision) {
+function goldenRatio( precision ) {
 	var F = generateF(precision);
 
 	return F[precision] / F[precision - 1];
