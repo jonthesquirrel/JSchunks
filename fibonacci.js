@@ -1,5 +1,5 @@
 function fib( n ) {
-  return F(n)[n];
+	return F(n)[n];
 }
 
 function F( n ){
