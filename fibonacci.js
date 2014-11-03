@@ -1,7 +1,9 @@
+//the nth number in the Fibonacci Series
 function fib( n ) {
 	return generateF(n)[n];
 }
 
+//the complete Fibonacci Series up to n
 function generateF( n ){
 	var F = [0, 1];
 
@@ -12,8 +14,9 @@ function generateF( n ){
 	return F;
 }
 
-function goldenRatio( precision ) {
-	var F = generateF(precision);
+//the approximated Golden Ratio calculated with precision p
+function goldenRatio( p ) {
+	var F = generateF(p);
 
-	return F[precision] / F[precision - 1];
+	return F[p] / F[p - 1];
 }
