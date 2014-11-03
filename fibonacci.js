@@ -10,12 +10,12 @@ function generateF( n ){
 }
 
 //the nth number in the Fibonacci Series
-function fib( n ) {
+function fib( n ){
 	return generateF(n)[n];
 }
 
 //the approximated Golden Ratio calculated with precision (number of iterations) p
-function goldenRatio( p ) {
+function goldenRatio( p ){
 	var F = generateF(p);
 
 	return F[p] / F[p - 1];
