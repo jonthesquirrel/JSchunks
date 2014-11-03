@@ -1,8 +1,3 @@
-//the nth number in the Fibonacci Series
-function fib( n ) {
-	return generateF(n)[n];
-}
-
 //the complete Fibonacci Series up to n
 function generateF( n ){
 	var F = [0, 1];
@@ -12,6 +7,11 @@ function generateF( n ){
 	}
 
 	return F;
+}
+
+//the nth number in the Fibonacci Series
+function fib( n ) {
+	return generateF(n)[n];
 }
 
 //the approximated Golden Ratio calculated with precision p
