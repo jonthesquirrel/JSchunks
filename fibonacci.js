@@ -1,4 +1,4 @@
-//the complete Fibonacci Series up to n
+//the complete Fibonacci Series up to (and including) n
 function generateF( n ){
 	var F = [0, 1];
 
