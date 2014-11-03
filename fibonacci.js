@@ -1,5 +1,5 @@
 function fib( n ) {
-	return F(n)[n];
+	return generateF(n)[n];
 }
 
 function generateF( n ){
@@ -10,4 +10,10 @@ function generateF( n ){
 	}
 
 	return F;
+}
+
+function goldenRatio(precision) {
+	var F = generateF(precision);
+	
+	return F[precision] / F[precision - 1]
 }
