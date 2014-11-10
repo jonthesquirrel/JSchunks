@@ -1,3 +1,5 @@
+/* Copyright (c) 2014 Jonathan Herman - MIT License (http://opensource.org/licenses/MIT) */
+
 //the complete Fibonacci Series up to (and including) n
 function generateF( n ){
 	var F = [0, 1];
