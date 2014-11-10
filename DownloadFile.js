@@ -1,3 +1,5 @@
+/* Copyright (c) 2014 Jonathan Herman - MIT License (http://opensource.org/licenses/MIT) */
+
 var DownloadFile = function(url, filename) {
   var elm = document.createElement('a');
   elm.href = url;
