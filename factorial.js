@@ -16,14 +16,12 @@ function factorial(n) {
 	}
 	/* end Number.isInteger() polyfill */
 
-	if (n === 0) {
-		return 1;
-	} else if (Number.isInteger(n) && n > 0) {
+	if (n === 0) return 1;
+
+	if (Number.isInteger(n) && n > 0) {
 		for (var i = 1, p = 1; i <= n; i++) {
-			p = p * i;
+			p *= i;
 		}
 		return p;
-	} else {
-		return undefined;
 	}
 }
