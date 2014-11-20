@@ -19,7 +19,10 @@ function factorial(n) {
 	if (n === 0) {
 		return 1;
 	} else if (Number.isInteger(n) && n > 0) {
-		//do loopy thing
+		for (var i = 1, p = 1; i <= n; i++) {
+			p = p * i;
+		}
+		return p;
 	} else {
 		return undefined;
 	}
