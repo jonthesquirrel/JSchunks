@@ -14,10 +14,11 @@ function randColor() {
 }
 
 function rainbow(elementArray){
-	elementArray.forEach(function(elm) {
+	for (var i = 0; i < elementArray.length; ++i) {
+		var elm = elementArray[i];
 		elm.style.backgroundColor = randColor();
 		elm.style.color = randColor();
-	});
+	}
 }
 
 //sane example
