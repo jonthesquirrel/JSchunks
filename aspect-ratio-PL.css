@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.square {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+	.square {
+		background: skyblue;
+		width: 100vw;
+		height: 100vw;
+	}
+}
+
+@media screen and (min-aspect-ratio: 1/1) {
+	.square {
+		background: green;
+		width: 100vh;
+		height: 100vh;
+	}
+}
