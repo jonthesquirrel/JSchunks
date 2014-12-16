@@ -1,7 +1,7 @@
 var obj = {'one':1, 'two':[2, 'two']};
 
-//store
+//store data in URL
 location.hash = JSON.stringify(obj);
 
-//read
+//read data from URL
 obj = JSON.parse(location.hash.substring(1));
