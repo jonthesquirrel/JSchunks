@@ -1,4 +1,5 @@
-/* Copyright (c) 2014 Jonathan Herman - MIT License (http://opensource.org/licenses/MIT) */
+/* Copyright (c) 2014 Jonathan Herman - MIT License */
+/* https://github.com/jdh11235/JSchunks */
 
 var DownloadFile = function(url, filename) {
   var elm = document.createElement('a');

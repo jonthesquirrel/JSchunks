@@ -1,3 +1,6 @@
+/* Copyright (c) 2014 Jonathan Herman - MIT License */
+/* https://github.com/jdh11235/JSchunks */
+
 function useMarklet(title, marklet) {
 	var elm = document.createElement('p');
 	elm.innerHTML = title;
