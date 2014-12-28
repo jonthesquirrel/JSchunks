@@ -10,8 +10,8 @@ function randomInRange (min, max) {
 //}
 
 function randomMiniHexColor () {
-	var r = randomInRange(1, 0xf).toString(16);
-	var g = randomInRange(1, 0xf).toString(16);
-	var b = randomInRange(1, 0xf).toString(16);
+	var r = randomInRange(0, 0xf).toString(16);
+	var g = randomInRange(0, 0xf).toString(16);
+	var b = randomInRange(0, 0xf).toString(16);
 	return '#' + r + g + b;
 }
