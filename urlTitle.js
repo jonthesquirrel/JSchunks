@@ -23,3 +23,6 @@ function urlTitle(url) {
 
 	return title;
 }
+
+// urlTitle('http://jdh11235.github.io/web-experiments/really-cool-experiment');
+// => "Really Cool Experiment"
