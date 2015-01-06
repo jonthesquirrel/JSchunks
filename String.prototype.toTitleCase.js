@@ -10,7 +10,7 @@ String.prototype.toTitleCase = function() {
 		compiledString += (' ' + words[i].capitalize());
 	}
 
-	compiledString = compiledString.substring(1);
+	compiledString = compiledString.slice(1);
 
 	return compiledString;
 };
