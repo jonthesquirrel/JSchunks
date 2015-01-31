@@ -1,16 +1,11 @@
-String.prototype.capitalize = function() {
-	return this.charAt(0).toUpperCase() + this.slice(1).toLowerCase();
-};
+String.prototype.toTitleCase = function () {
+	var str = this;
+	var newStr = '';
 
-String.prototype.toTitleCase = function() {
-	var words = this.split(' ');
-	var compiledString = '';
-
+	var words = str.split(' ');
 	for (var i = 0; i < words.length; i++) {
-		compiledString += (' ' + words[i].capitalize());
+		newStr += ' ' + words[i].slice(0, 1).toUpperCase() + words[i].slice(1).toLowerCase();
 	}
 
-	compiledString = compiledString.slice(1);
-
-	return compiledString;
+	return newStr.trim();
 };
