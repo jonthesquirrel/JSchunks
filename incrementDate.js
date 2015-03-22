@@ -1,5 +1,5 @@
 // http://stackoverflow.com/a/29199863/4021614
-var incrementDate = function incrementDate(date_str, incrementor) {
+function incrementDate(date_str, incrementor) {
     var parts = date_str.split("-");
     var dt = new Date(
         parseInt(parts[0], 10),      // year
